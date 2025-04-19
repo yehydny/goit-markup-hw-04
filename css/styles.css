@@ -201,6 +201,19 @@ img {
 .advantages-icon {
 }
 
+.our-team-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.social-icon {
+  background-color: var(--iris);
+  width: 40px;
+  height: 40px;
+}
+
 /* our portfolio styles */
 .our-portfolio-section {
   padding-top: 120px;
