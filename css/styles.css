@@ -60,6 +60,7 @@ img {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  margin-right: 120px;
 }
 
 /* header styles */
@@ -513,4 +514,10 @@ p {
 /* footer  */
 .footer {
   background-color: var(--navy-blue);
+  display: flex;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: baseline;
 }
