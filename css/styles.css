@@ -61,8 +61,6 @@ img {
   padding: 0 15px;
   margin: 0 auto;
   margin-right: 120px;
-  display: flex;
-  align-items: baseline;
 }
 
 /* header styles */
@@ -519,7 +517,7 @@ p {
   display: flex;
 }
 
-.footer-socials {
+.div-footer-container {
   display: flex;
   align-items: baseline;
 }
