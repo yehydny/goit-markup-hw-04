@@ -255,12 +255,28 @@ img {
 
 .our-portfolio-list-item {
   width: calc((100% - 48px) / 3);
+  position: relative;
 }
 
 .our-portfolio-category-naming {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
+}
+
+.our-portfolio-overlay-text {
+  position: absolute;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+  padding-top: 40px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 /* footer styles  */
