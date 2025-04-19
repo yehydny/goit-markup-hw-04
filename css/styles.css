@@ -118,7 +118,7 @@ img {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
-  height: 600px;
+  margin: auto;
 }
 
 .page-title-section {
@@ -183,6 +183,22 @@ img {
 
 .profession-paragraph {
   text-align: center;
+}
+
+.advantages-top-picture {
+  background: var(--cloud);
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  height: 112px;
+
+  margin-bottom: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantages-icon {
 }
 
 /* our portfolio styles */
