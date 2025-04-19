@@ -61,6 +61,8 @@ img {
   padding: 0 15px;
   margin: 0 auto;
   margin-right: 120px;
+  display: flex;
+  align-items: baseline;
 }
 
 /* header styles */
